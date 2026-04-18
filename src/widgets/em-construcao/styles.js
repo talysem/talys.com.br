@@ -25,4 +25,5 @@ export const Box = styled.div`
 export const Title = styled.h1`
     font-size: clamp(24px, 5dvw, 36px);
     color: rgba(255, 255, 255, 1);
+    text-align: center;
 `
