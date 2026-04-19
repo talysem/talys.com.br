@@ -3,7 +3,7 @@ import ConstructionSign from "./src/construction-sign"
 
 export default function EmConstrucao() {
     return (
-        <S.Wide>
+        <S.Wide id="in_construction">
             <S.Box>
                 <ConstructionSign size={150}></ConstructionSign>
                 <S.Title>Site em construção</S.Title>

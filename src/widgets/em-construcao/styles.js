@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wide = styled.div`
-    width: 100dvw;
+    width: 100%;
     height: 100dvh;
     background-color: #101010;
     display: flex;

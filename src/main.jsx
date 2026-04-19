@@ -1,7 +1,11 @@
 import { createRoot } from 'react-dom/client'
-import HomePage from './pages/home/home'
+import HomePage from './pages/home'
 import './index.css'
+import { BrowserRouter } from 'react-router-dom'
+import App from './App'
 
 createRoot(document.getElementById('root')).render(
-  <HomePage></HomePage>
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
 )
