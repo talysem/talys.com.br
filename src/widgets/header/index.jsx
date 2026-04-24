@@ -5,7 +5,7 @@ export default function Header() {
     const modules = import.meta.glob('/src/pages/**/index.jsx', { eager: true })
 
     const pages = Object.entries(modules)
-        .filter(([, mod]) => mod.config)
+        .filter(([, mod]) => mod.config && mod.config.showInMenu !== false)
         .map(([path, mod]) => ({
             path: path
                 .replace('/src/pages', '')
